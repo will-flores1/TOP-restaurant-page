@@ -1,0 +1,64 @@
+$primary-color: #2fa8cc;
+$secondary-color: #f4f4f4;
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: $secondary-color;
+}
+
+.nav {
+  width: 100%;
+  background-color: $primary-color;
+  .nav__list {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+    .nav__item {
+    display: inline-block;
+      .nav__link {
+        color: #272727;
+        text-decoration: none;
+        padding: 10px 15px;
+        &:hover {
+          color: #000;
+          background-color: rgba(255, 255, 255, 0.163);
+          cursor: pointer;
+        }
+      }
+  }
+  }
+}
+
+.home__page {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.menu__page {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.contact__page {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: $primary-color;
+  padding: 10px;
+}
+
+.active {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.163);
+  cursor: pointer;
+}
